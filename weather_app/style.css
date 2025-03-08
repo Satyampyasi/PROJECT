@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+     background-image: url(https://media.istockphoto.com/id/1432955867/vector/technology-abstract-lines-and-dots-connect-background-with-hexagons-hexagon-grid-hexagons.jpg?s=612x612&w=0&k=20&c=gSMTHNjpqgpDU06e3G8GhQTUcqEcWfvafMFjzT3qzzQ=);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+#btn{
+     height: 25px;
+     width: 150px;
+     padding-right: 10px;
+     font-size: larger;
+     border-radius: 5px;
+     box-shadow: 0px 2px 4px blanchedalmond;
+}
+.box{
+     color: aliceblue;
+     font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.main{
+     border: 2px solid whitesmoke;
+     width: 650px;
+     display: flex;
+     flex-direction: column;
+     justify-content:space-evenly;
+     align-items: center;
+     height: 300px;
+     border-radius: 8px;
+     box-shadow: 2px 3px 5px wheat;
+     background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52393.jpg?t=st=1735460436~exp=1735464036~hmac=fcf3bb8493e9ccb342790857a83b1d0cb9b367d70946f1e097b050bc48ff8626&w=900);
+}
+h1{
+     color: bisque;
+}
+#input{
+     width: 200px;
+     height: 25px;
+     padding-left: 50px;
+     border-radius: 5px;
+     box-shadow: 0px 2px 4px blanchedalmond;
+     font-size: medium;
+}
+#logo{
+    color: antiquewhite;
+    display: flex;
+    justify-content: flex-end;
+    width: 80vh;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: 200;
+    font-weight: 800;
+    font-style: normal;
+    font-size:x-large;
+}

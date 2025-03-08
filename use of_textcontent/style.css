@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height:90vh;
+    margin:25px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: antiquewhite;
+    
+}
+
+.box{
+    height: 65vh;
+    width: 65vh;
+    margin: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 5px 8px 5px 1px rgb(175, 186, 181);
+    background-color: rgb(127, 67, 43);
+    
+}
+.innerbox{
+    background-color: rgb(208, 223, 223);
+    margin: 20px;
+    border: 1px solid black;
+    height:50px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: medium;
+}
+.buton{
+    margin-left: 110px;
+    border-radius: 8px;
+     height: 35px;
+     width: 100px;
+     border: 2px solid black;
+     
+}
+#secoundbox{
+color: white;
+padding:55px;
+}

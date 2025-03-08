@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Sixtyfour+Convergence&display=swap');
+
+*{
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+
+.main{
+     display: flex;
+     border: 1px solid black;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 800px;
+     border-radius: 8px;
+     background-color: rgb(16, 56, 70);
+     padding: 20px;
+     box-shadow:2px 4px 5px wheat ;
+}
+h2{
+     font-family: "Dancing Script", serif;
+     font-optical-sizing: auto;
+     font-weight: 500;
+     font-style: normal;
+     color: aliceblue;
+     padding: 20px;
+    
+}
+h1{
+     font-family: "Sixtyfour Convergence", serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+     font-variation-settings:
+       "BLED" 0,
+       "SCAN" 28,
+       "XELA" 0,
+       "YELA" 0;
+}
+#button{
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 5px 5px ;
+}
+p{
+     font-family: 'Courier New', Courier, monospace;
+     color: antiquewhite;
+}
+body{
+     background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701385755.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+}
+.container{
+     border: 3px solid wheat;
+     padding: 20px;
+     display: flex;
+     height: 100vh;
+     align-items: center;
+     justify-content: center;
+}
+#button:hover{
+     background-color: rgb(188, 195, 139);
+     transform: translateY(3px);
+}
